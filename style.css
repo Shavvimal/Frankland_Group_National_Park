@@ -22,6 +22,19 @@ body {
     }
 }
 
+
+@media only screen and (orientation:portrait) {
+    div {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    div {
+        margin-bottom: 20px;
+    }
+}
+
 #bodyy {
     text-align: center;
     background-color: #D9ED92;
